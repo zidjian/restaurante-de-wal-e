@@ -1,0 +1,9 @@
+html, body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.separador {
+    width: calc(100%-2rem);
+    margin: auto;
+}

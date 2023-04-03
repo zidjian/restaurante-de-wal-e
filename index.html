@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante de Wal-E</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    
+    <link href="./assets/css/reset.css" rel="stylesheet" />
+    <link href="./assets/css/base.css" rel="stylesheet" />
+</head>
+    <body>
+        <header class="cabecera">
+            <div class="cabecera-contenido separador">
+                <img src="./assets/img/logo.svg" alt="Logo del restaurante de Wal-E" class="logo">
+                <div class="icono icono_menu"></div>
+                <nav class="navegacion">
+                    <ul class="navegacion-desktop">
+                        <li class="navegacion-elemento">
+                            <a href="#" class="navegacion-link">Inicio</a>
+                        </li>
+                        <li class="navegacion-elemento">
+                            <a href="#" class="navegacion-link">Recetas</a>
+                        </li>
+                        <li class="navegacion-elemento">
+                            <a href="#" class="navegacion-link">Quienes somos</a>
+                        </li>
+                        <li class="navegacion-elemento">
+                            <a href="#" class="navegacion-link">Contacto</a>
+                        </li>
+                    </ul>
+                    <ul class="navegacion-mobil">
+                        <li class="navegacion-elemento">
+                            <a href="#" class="navegacion-link">Inicio</a>
+                        </li>
+                        <li class="navegacion-elemento">
+                            <a href="#" class="navegacion-link">Recetas</a>
+                        </li>
+                        <li class="navegacion-elemento">
+                            <a href="#" class="navegacion-link">Quienes somos</a>
+                        </li>
+                        <li class="navegacion-elemento">
+                            <a href="#" class="navegacion-link">Contacto</a>
+                        </li>
+                        <li class="navegacion_cerrar icono icono_cerrar"></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main class="cuerpo">
+            <swiper-container class="slider mySwiper" pagination="true" pagination-dynamic-bullets="true">
+              <swiper-slide>Slide 1</swiper-slide>
+              <swiper-slide>Slide 2</swiper-slide>
+              <swiper-slide>Slide 3</swiper-slide>
+              <swiper-slide>Slide 4</swiper-slide>
+              <swiper-slide>Slide 5</swiper-slide>
+              <swiper-slide>Slide 6</swiper-slide>
+              <swiper-slide>Slide 7</swiper-slide>
+              <swiper-slide>Slide 8</swiper-slide>
+              <swiper-slide>Slide 9</swiper-slide>
+            </swiper-container>
+            <section class="llamada">
+                <div class="llamada-contenido separador">
+                    <h1 class="llamada-titulo">Recetas para economizar y ganar salud</h1>
+                    <p class="llamada-eslogan">Nuestras recetas te ayudan a aprovechar mejor los alimentos, economizar, ganar tiempo y practicidad</p>
+                </div>
+            </section>
+            <section class="recetas">
+                <div class="recetas-contenido separador">
+                    <article class="receta">
+                        <img src="./assets/img/recetas/comida1.avif" alt="Producto 1" class="receta-imagen">
+                        <div class="receta-contenido">
+                            <h2 class="receta-titulo">Bowl de aguacate</h2>
+                            <p class="receta-descripcion">Receta refrescante y llena de vitaminas para su desayuno.</p>
+                            <a href="#" role="button" class="boton">Ver receta</a>
+                        </div>
+                    </article>
+                </div>
+            </section>
+            <section class="acerca">
+                <div class="acerca-contenido separador">
+                    <div class="encabezado">
+                        <h2 class="encabezado-titulo"></h2>
+                        <span class="encabezado-subtitulo"></span>
+                    </div>
+                    <div class="personas">
+                        <div class="persona">
+                            <div class="persona-imagen" style="background-image: url(./assets/img/personas/foto1.avif);"></div>
+                            <p class="persona-nombre">Roberta</p>
+                            <p class="persona-puesto">Chef</p>
+                        </div>
+                        <div class="persona">
+                            <div class="persona-imagen" style="background-image: url(./assets/img/personas/foto2.avif);"></div>
+                            <p class="persona-nombre">Roberta</p>
+                            <p class="persona-puesto">Chef</p>
+                        </div>
+                        <div class="persona">
+                            <div class="persona-imagen" style="background-image: url(./assets/img/personas/foto3.avif);"></div>
+                            <p class="persona-nombre">Roberta</p>
+                            <p class="persona-puesto">Chef</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="piepagina">
+            <div class="piepagina-contenido separador">
+                <p class="piepagina-copy">Todos los derechos reservados</p>
+                <ul class="social">
+                    <li class="social-elemento"><i class="icono icono_facebook"></i></li>
+                    <li class="social-elemento"><i class="icono icono_whatsapp"></i></li>
+                    <li class="social-elemento"><i class="icono icono_instagram"></i></li>
+                </ul>
+            </div>
+        </footer>
+    </body>
+</html>
