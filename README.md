@@ -1,6 +1,5 @@
-# Arquitectura-css
-curso de arquictetura CSS de Alura Latam. 
-Instructora: Jeanmarie Quijada
+# Restaurante de Wal-E
+Mejorando el proyecto del curso de arquictetura CSS de Alura Latam.
 
 
 
