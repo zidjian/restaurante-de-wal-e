@@ -1,0 +1,18 @@
+.piepagina-copy {
+    color: var(--letra-semioscura);
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .piepagina-copy {
+        text-align: left;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+}
+
+@media screen and (min-width: 1440px) {
+
+}

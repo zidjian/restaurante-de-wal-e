@@ -1,0 +1,11 @@
+.persona-imagen {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}

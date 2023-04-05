@@ -1,0 +1,7 @@
+.llamada-titulo {
+    font-family: 'Pacifico';
+    font-size: 2rem;
+    color: var(--primario);
+    margin-bottom: 2rem;
+    text-align: center;
+}

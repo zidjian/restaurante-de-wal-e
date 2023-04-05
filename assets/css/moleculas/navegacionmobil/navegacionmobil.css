@@ -6,3 +6,17 @@
     height: 100vh;
     background-color: var(--letra-oscura);
 }
+
+@media screen and (min-width: 768px) {
+
+}
+
+@media screen and (min-width: 1024px) {
+    .navegacionmobil {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+
+}

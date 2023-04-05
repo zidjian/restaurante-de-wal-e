@@ -10,8 +10,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
 
     <!-- Estilos -->
-    <link href="./assets/css/reset.css" rel="stylesheet" />
-    <link href="./assets/css/base.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="./assets/css/color-ligth.css">
     <link rel="stylesheet" href="./assets/css/templates/index.css">
     <link rel="stylesheet" href="./assets/css/organismos/cabecera.css">
@@ -28,6 +28,29 @@
     <link rel="stylesheet" href="./assets/css/moleculas/slider/slider.css">
     <link rel="stylesheet" href="./assets/css/moleculas/slider/slider-elemento.css">
     <link rel="stylesheet" href="./assets/css/moleculas/slider/slider-titulo.css">
+    <link rel="stylesheet" href="./assets/css/moleculas/llamada/llamada.css">
+    <link rel="stylesheet" href="./assets/css/moleculas/llamada/llamada-contenido.css">
+    <link rel="stylesheet" href="./assets/css/moleculas/llamada/llamada-titulo.css">
+    <link rel="stylesheet" href="./assets/css/moleculas/llamada/llamada-eslogan.css">
+    <link rel="stylesheet" href="./assets/css/organismos/recetas.css">
+    <link rel="stylesheet" href="./assets/css/moleculas/receta/receta.css">
+    <link rel="stylesheet" href="./assets/css/moleculas/receta/receta-imagen.css">
+    <link rel="stylesheet" href="./assets/css/moleculas/receta/receta-contenido.css">
+    <link rel="stylesheet" href="./assets/css/moleculas/receta/receta-titulo.css">
+    <link rel="stylesheet" href="./assets/css/moleculas/receta/receta-descripcion.css">
+    <link rel="stylesheet" href="./assets/css/moleculas/boton/boton.css">
+    <link rel="stylesheet" href="./assets/css/moleculas/encabezado/encabezado.css">
+    <link rel="stylesheet" href="./assets/css/moleculas/encabezado/encabezado-titulo.css">
+    <link rel="stylesheet" href="./assets/css/moleculas/encabezado/encabezado-subtitulo.css">
+    <link rel="stylesheet" href="./assets/css/organismos/personas.css">
+    <link rel="stylesheet" href="./assets/css/moleculas/persona/persona.css">
+    <link rel="stylesheet" href="./assets/css/moleculas/persona/persona-imagen.css">
+    <link rel="stylesheet" href="./assets/css/moleculas/persona/persona-nombre.css">
+    <link rel="stylesheet" href="./assets/css/moleculas/persona/persona-puesto.css">
+    <link rel="stylesheet" href="./assets/css/organismos/piepagina.css">
+    <link rel="stylesheet" href="./assets/css/moleculas/piepagina/piepagina-copy.css">
+    <link rel="stylesheet" href="./assets/css/moleculas/social/social.css">
+    <link rel="stylesheet" href="./assets/css/moleculas/social/social-elemento.css">
 </head>
     <body>
         <header class="cabecera">
@@ -40,13 +63,10 @@
                             <a href="#" class="navegacion-link">Inicio</a>
                         </li>
                         <li class="navegacion-elemento">
-                            <a href="#" class="navegacion-link">Recetas</a>
+                            <a href="#recetas" class="navegacion-link">Recetas</a>
                         </li>
                         <li class="navegacion-elemento">
-                            <a href="#" class="navegacion-link">Quienes somos</a>
-                        </li>
-                        <li class="navegacion-elemento">
-                            <a href="#" class="navegacion-link">Contacto</a>
+                            <a href="#acerca" class="navegacion-link">Quienes somos</a>
                         </li>
                     </ul>
                 </nav>
@@ -81,13 +101,13 @@
                     <span class="slider-titulo">Reaproveche mejor los alimentos</span>
                 </swiper-slide>
             </swiper-container>
-            <section class="llamada">
+            <section id="llamada" class="llamada">
                 <div class="llamada-contenido separador">
                     <h1 class="llamada-titulo">Recetas para economizar y ganar salud</h1>
                     <p class="llamada-eslogan">Nuestras recetas te ayudan a aprovechar mejor los alimentos, economizar, ganar tiempo y practicidad</p>
                 </div>
             </section>
-            <section class="recetas">
+            <section id="recetas" class="recetas">
                 <div class="recetas-contenido separador">
                     <article class="receta">
                         <img src="./assets/img/recetas/comida1.avif" alt="Producto 1" class="receta-imagen">
@@ -97,13 +117,53 @@
                             <a href="#" role="button" class="boton">Ver receta</a>
                         </div>
                     </article>
+                    <article class="receta">
+                        <img src="./assets/img/recetas/comida2.avif" alt="Producto 1" class="receta-imagen">
+                        <div class="receta-contenido">
+                            <h2 class="receta-titulo">Bowl de aguacate</h2>
+                            <p class="receta-descripcion">Receta refrescante y llena de vitaminas para su desayuno.</p>
+                            <a href="#" role="button" class="boton">Ver receta</a>
+                        </div>
+                    </article>
+                    <article class="receta">
+                        <img src="./assets/img/recetas/comida3.avif" alt="Producto 1" class="receta-imagen">
+                        <div class="receta-contenido">
+                            <h2 class="receta-titulo">Bowl de aguacate</h2>
+                            <p class="receta-descripcion">Receta refrescante y llena de vitaminas para su desayuno.</p>
+                            <a href="#" role="button" class="boton">Ver receta</a>
+                        </div>
+                    </article>
+                    <article class="receta">
+                        <img src="./assets/img/recetas/comida4.avif" alt="Producto 1" class="receta-imagen">
+                        <div class="receta-contenido">
+                            <h2 class="receta-titulo">Bowl de aguacate</h2>
+                            <p class="receta-descripcion">Receta refrescante y llena de vitaminas para su desayuno.</p>
+                            <a href="#" role="button" class="boton">Ver receta</a>
+                        </div>
+                    </article>
+                    <article class="receta">
+                        <img src="./assets/img/recetas/comida5.avif" alt="Producto 1" class="receta-imagen">
+                        <div class="receta-contenido">
+                            <h2 class="receta-titulo">Bowl de aguacate</h2>
+                            <p class="receta-descripcion">Receta refrescante y llena de vitaminas para su desayuno.</p>
+                            <a href="#" role="button" class="boton">Ver receta</a>
+                        </div>
+                    </article>
+                    <article class="receta">
+                        <img src="./assets/img/recetas/comida6.avif" alt="Producto 1" class="receta-imagen">
+                        <div class="receta-contenido">
+                            <h2 class="receta-titulo">Bowl de aguacate</h2>
+                            <p class="receta-descripcion">Receta refrescante y llena de vitaminas para su desayuno.</p>
+                            <a href="#" role="button" class="boton">Ver receta</a>
+                        </div>
+                    </article>
                 </div>
             </section>
-            <section class="acerca">
+            <section id="acerca" class="acerca">
                 <div class="acerca-contenido separador">
                     <div class="encabezado">
-                        <h2 class="encabezado-titulo"></h2>
-                        <span class="encabezado-subtitulo"></span>
+                        <h2 class="encabezado-titulo">Quienes somos</h2>
+                        <span class="encabezado-subtitulo">Conozca la comunidad detrás de la iniciativa</span>
                     </div>
                     <div class="personas">
                         <div class="persona">
@@ -127,9 +187,9 @@
         </main>
         <footer class="piepagina">
             <div class="piepagina-contenido separador">
-                <p class="piepagina-copy">Todos los derechos reservados</p>
+                <p class="piepagina-copy">Copyright &#169; 2023 Waldir Maidana | Todos los derechos reservados</p>
                 <ul class="social">
-                    <li class="social-elemento"><i class="icono icono_facebook"></i></li>
+                    <li class="social-elemento"><i class="icono icono_mail"></i></li>
                     <li class="social-elemento"><i class="icono icono_whatsapp"></i></li>
                     <li class="social-elemento"><i class="icono icono_instagram"></i></li>
                 </ul>

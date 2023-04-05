@@ -2,6 +2,7 @@
     width: 2rem;
     height: 2rem;
     cursor: pointer;
+    display: block;
 }
 
 .icono_menu {
@@ -10,18 +11,32 @@
     background-size: contain;
 }
 
+.icono_mail {
+    background-image: url(./../../../img/iconos/instagram.avif);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.icono_whatsapp {
+    background-image: url(./../../../img/iconos/whatsapp.avif);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.icono_instagram {
+    background-image: url(./../../../img/iconos/instagram.avif);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
 @media screen and (min-width: 768px) {
     .icono {
-        width: 3rem;
-        height: 3rem;
+        width: 2.5rem;
+        height: 2.5rem;
     }
 }
 
 @media screen and (min-width: 1024px) {
-    .icono {
-        width: 4rem;
-        height: 4rem;
-    }
 
     .icono_menu {
         display: none;
