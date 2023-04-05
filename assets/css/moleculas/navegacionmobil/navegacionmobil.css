@@ -4,7 +4,23 @@
     right: -100%;
     width: 100vw;
     height: 100vh;
+    z-index: 10;
+    display: flex;
     background-color: var(--letra-oscura);
+    transition: 1.5s;
+    -webkit-transition: 1.5s;
+    -moz-transition: 1.5s;
+    -ms-transition: 1.5s;
+    -o-transition: 1.5s;
+}
+
+.navegacionmobil.activo {
+    right: 0;
+    transition: 1.5s;
+    -webkit-transition: 1.5s;
+    -moz-transition: 1.5s;
+    -ms-transition: 1.5s;
+    -o-transition: 1.5s;
 }
 
 @media screen and (min-width: 768px) {

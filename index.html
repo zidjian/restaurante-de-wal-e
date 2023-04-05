@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Restaurante de Wal-E</title>
+    <link rel="icon" type="image/x-icon" href="./assets/img/logo.svg">
+
     <!-- Fuentes -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
@@ -17,14 +19,14 @@
     <link rel="stylesheet" href="./assets/css/organismos/cabecera.css">
     <link rel="stylesheet" href="./assets/css/moleculas/logo/logo.css">
     <link rel="stylesheet" href="./assets/css/moleculas/icono/icono.css">
-    <link rel="stylesheet" href="./assets/css/moleculas/navegacionmobil/navegacionmobil.css">
-    <link rel="stylesheet" href="./assets/css/moleculas/navegacionmobil/navegacionmobil-lista.css">
-    <link rel="stylesheet" href="./assets/css/moleculas/navegacionmobil/navegacionmobil-elemento.css">
-    <link rel="stylesheet" href="./assets/css/moleculas/navegacionmobil/navegacionmobil-link.css">
     <link rel="stylesheet" href="./assets/css/moleculas/navegacion/navegacion.css">
     <link rel="stylesheet" href="./assets/css/moleculas/navegacion/navegacion-lista.css">
     <link rel="stylesheet" href="./assets/css/moleculas/navegacion/navegacion-elemento.css">
     <link rel="stylesheet" href="./assets/css/moleculas/navegacion/navegacion-link.css">
+    <link rel="stylesheet" href="./assets/css/moleculas/navegacionmobil/navegacionmobil.css">
+    <link rel="stylesheet" href="./assets/css/moleculas/navegacionmobil/navegacionmobil-lista.css">
+    <link rel="stylesheet" href="./assets/css/moleculas/navegacionmobil/navegacionmobil-elemento.css">
+    <link rel="stylesheet" href="./assets/css/moleculas/navegacionmobil/navegacionmobil-link.css">
     <link rel="stylesheet" href="./assets/css/moleculas/slider/slider.css">
     <link rel="stylesheet" href="./assets/css/moleculas/slider/slider-elemento.css">
     <link rel="stylesheet" href="./assets/css/moleculas/slider/slider-titulo.css">
@@ -55,7 +57,9 @@
     <body>
         <header class="cabecera">
             <div class="cabecera-contenido separador">
-                <img src="./assets/img/logo.svg" alt="Logo del restaurante de Wal-E" class="logo">
+                <a href="#">
+                    <img src="./assets/img/logo.svg" alt="Logo del restaurante de Wal-E" class="logo">
+                </a>
                 <div class="icono icono_menu"></div>
                 <nav class="navegacion">
                     <ul class="navegacion-lista">
@@ -86,7 +90,7 @@
                 <li class="navegacionmobil-elemento">
                     <a href="#" class="navegacionmobil-link">Contacto</a>
                 </li>
-                <li class="navegacionmobil icono icono_cerrar"></li>
+                <li class="navegacionmobil-elemento icono icono_cerrar">&#10005</li>
             </ul>
         </nav>
         <main class="cuerpo">
@@ -198,5 +202,6 @@
 
         <!-- Scripts: Externo -->
         <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+        <script src="./assets/js/menumobil.js" defer></script>
     </body>
 </html>

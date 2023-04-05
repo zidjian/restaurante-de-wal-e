@@ -29,6 +29,15 @@
     background-size: contain;
 }
 
+.icono_cerrar {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    color: var(--letra-clara);
+    font-size: 2rem;
+    text-align: center;
+}
+
 @media screen and (min-width: 768px) {
     .icono {
         width: 2.5rem;

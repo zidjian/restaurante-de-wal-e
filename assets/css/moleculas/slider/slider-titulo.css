@@ -6,3 +6,19 @@
     color: var(--letra-clara);
     text-shadow: 0 .1rem .1rem var(--letra-oscura);
 }
+
+@media screen and (min-width: 768px) {
+    .slider-titulo {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .slider-titulo {
+        font-size: 4rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+
+}

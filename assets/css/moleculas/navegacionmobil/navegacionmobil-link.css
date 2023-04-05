@@ -1,0 +1,12 @@
+.navegacionmobil-link {
+    padding: 1rem 2rem;
+    border: solid 1px var(--letra-clara);
+    display: block;
+    color: var(--letra-clara);
+    text-decoration: none;
+}
+
+.navegacionmobil-link:hover {
+    color: var(--letra-oscura);
+    background-color: var(--letra-clara);
+}
