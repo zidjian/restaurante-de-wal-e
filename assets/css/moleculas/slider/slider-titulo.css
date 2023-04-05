@@ -1,0 +1,8 @@
+.slider-titulo {
+    font-family: 'Pacifico';
+    font-size: 2rem;
+    text-align: center;
+    margin: 0 2rem;
+    color: var(--letra-clara);
+    text-shadow: 0 .1rem .1rem var(--letra-oscura);
+}

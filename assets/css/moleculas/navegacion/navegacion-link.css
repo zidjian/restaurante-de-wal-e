@@ -1,0 +1,8 @@
+.navegacion-link {
+    text-decoration: none;
+    color: var(--letra-oscura);
+}
+
+.navegacion-link_mobil {
+    color: var(--letra-clara);
+}

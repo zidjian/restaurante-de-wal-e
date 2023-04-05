@@ -1,0 +1,14 @@
+.cabecera {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    background-color: var(--letra-clara);
+}
+
+.cabecera-contenido {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}

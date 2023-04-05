@@ -1,0 +1,8 @@
+.navegacionmobil {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--letra-oscura);
+}

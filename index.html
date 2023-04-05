@@ -5,10 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Restaurante de Wal-E</title>
+    <!-- Fuentes -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
-    
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+    <!-- Estilos -->
     <link href="./assets/css/reset.css" rel="stylesheet" />
     <link href="./assets/css/base.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/css/color-ligth.css">
+    <link rel="stylesheet" href="./assets/css/templates/index.css">
+    <link rel="stylesheet" href="./assets/css/organismos/cabecera.css">
+    <link rel="stylesheet" href="./assets/css/moleculas/logo/logo.css">
+    <link rel="stylesheet" href="./assets/css/moleculas/icono/icono.css">
+    <link rel="stylesheet" href="./assets/css/moleculas/navegacionmobil/navegacionmobil.css">
+    <link rel="stylesheet" href="./assets/css/moleculas/navegacionmobil/navegacionmobil-lista.css">
+    <link rel="stylesheet" href="./assets/css/moleculas/navegacionmobil/navegacionmobil-elemento.css">
+    <link rel="stylesheet" href="./assets/css/moleculas/navegacionmobil/navegacionmobil-link.css">
+    <link rel="stylesheet" href="./assets/css/moleculas/navegacion/navegacion.css">
+    <link rel="stylesheet" href="./assets/css/moleculas/navegacion/navegacion-lista.css">
+    <link rel="stylesheet" href="./assets/css/moleculas/navegacion/navegacion-elemento.css">
+    <link rel="stylesheet" href="./assets/css/moleculas/navegacion/navegacion-link.css">
+    <link rel="stylesheet" href="./assets/css/moleculas/slider/slider.css">
+    <link rel="stylesheet" href="./assets/css/moleculas/slider/slider-elemento.css">
+    <link rel="stylesheet" href="./assets/css/moleculas/slider/slider-titulo.css">
 </head>
     <body>
         <header class="cabecera">
@@ -16,7 +35,7 @@
                 <img src="./assets/img/logo.svg" alt="Logo del restaurante de Wal-E" class="logo">
                 <div class="icono icono_menu"></div>
                 <nav class="navegacion">
-                    <ul class="navegacion-desktop">
+                    <ul class="navegacion-lista">
                         <li class="navegacion-elemento">
                             <a href="#" class="navegacion-link">Inicio</a>
                         </li>
@@ -29,36 +48,38 @@
                         <li class="navegacion-elemento">
                             <a href="#" class="navegacion-link">Contacto</a>
                         </li>
-                    </ul>
-                    <ul class="navegacion-mobil">
-                        <li class="navegacion-elemento">
-                            <a href="#" class="navegacion-link">Inicio</a>
-                        </li>
-                        <li class="navegacion-elemento">
-                            <a href="#" class="navegacion-link">Recetas</a>
-                        </li>
-                        <li class="navegacion-elemento">
-                            <a href="#" class="navegacion-link">Quienes somos</a>
-                        </li>
-                        <li class="navegacion-elemento">
-                            <a href="#" class="navegacion-link">Contacto</a>
-                        </li>
-                        <li class="navegacion_cerrar icono icono_cerrar"></li>
                     </ul>
                 </nav>
             </div>
         </header>
+        <nav class="navegacionmobil">
+            <ul class="navegacionmobil-lista">
+                <li class="navegacionmobil-elemento">
+                    <a href="#" class="navegacionmobil-link">Inicio</a>
+                </li>
+                <li class="navegacionmobil-elemento">
+                    <a href="#" class="navegacionmobil-link">Recetas</a>
+                </li>
+                <li class="navegacionmobil-elemento">
+                    <a href="#" class="navegacionmobil-link">Quienes somos</a>
+                </li>
+                <li class="navegacionmobil-elemento">
+                    <a href="#" class="navegacionmobil-link">Contacto</a>
+                </li>
+                <li class="navegacionmobil icono icono_cerrar"></li>
+            </ul>
+        </nav>
         <main class="cuerpo">
-            <swiper-container class="slider mySwiper" pagination="true" pagination-dynamic-bullets="true">
-              <swiper-slide>Slide 1</swiper-slide>
-              <swiper-slide>Slide 2</swiper-slide>
-              <swiper-slide>Slide 3</swiper-slide>
-              <swiper-slide>Slide 4</swiper-slide>
-              <swiper-slide>Slide 5</swiper-slide>
-              <swiper-slide>Slide 6</swiper-slide>
-              <swiper-slide>Slide 7</swiper-slide>
-              <swiper-slide>Slide 8</swiper-slide>
-              <swiper-slide>Slide 9</swiper-slide>
+            <swiper-container class="slider mySwiper" pagination="true" pagination-clickable="true" centered-slides="true" autoplay-delay="2500" autoplay-disable-on-interaction="false">
+                <swiper-slide class="slider-elemento" style="background-image: url(./assets/img/banner1.avif);">
+                    <span class="slider-titulo">Reaproveche mejor los alimentos</span>
+                </swiper-slide>
+                <swiper-slide class="slider-elemento" style="background-image: url(./assets/img/banner2.avif);">
+                    <span class="slider-titulo">Reaproveche mejor los alimentos</span>
+                </swiper-slide>
+                <swiper-slide class="slider-elemento" style="background-image: url(./assets/img/banner3.avif);">
+                    <span class="slider-titulo">Reaproveche mejor los alimentos</span>
+                </swiper-slide>
             </swiper-container>
             <section class="llamada">
                 <div class="llamada-contenido separador">
@@ -114,5 +135,8 @@
                 </ul>
             </div>
         </footer>
+
+        <!-- Scripts: Externo -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
     </body>
 </html>
