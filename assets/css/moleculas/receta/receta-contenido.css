@@ -1,4 +1,7 @@
 .receta-contenido {
     padding: 1rem;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }

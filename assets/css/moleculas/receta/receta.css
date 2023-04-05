@@ -1,4 +1,10 @@
 .receta {
     width: 100%;
+    overflow: hidden;
     box-shadow: 0 0 .5rem rgba(0, 0, 0, .4);
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
 }
