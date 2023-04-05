@@ -2,6 +2,7 @@ html, body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     scroll-behavior: smooth;
+    line-height: 1.5;
 }
 
 .separador {

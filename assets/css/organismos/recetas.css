@@ -15,10 +15,10 @@
 }
 
 @media screen and (min-width: 1024px) {
-    .recetas-contenido {
-        grid-template-columns: repeat(3, 1fr);
-    }
 }
 
 @media screen and (min-width: 1440px) {
+    .recetas-contenido {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
